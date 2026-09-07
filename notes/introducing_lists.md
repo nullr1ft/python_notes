@@ -1,6 +1,6 @@
 # Lists
 
-### Index in lists
+### Index In Lists
 From right, lists start from 0 and continue.<br>
 From left, lists start from -1 and continue.
 ```python
@@ -12,7 +12,7 @@ print(f"Hello there! {names[0].title()} welcome to the party!")
 print(f"Hello there! {names[-2].title()} welcome to the party!")
 ```
 
-### Adding to the list & modifying
+### Adding To The List & Modifying
 There are several ways to add data to a list.<br><br>
 First, adding data without any index number which will add the data to the end of the list:
 ```python
@@ -27,7 +27,7 @@ We can also modify any data we want inside the list:
 name[1] = 'andrew'
 ```
 
-### Organizing lists
+### Organizing Lists
 We can either sort lists permanently or temporary<br>
 
 Permanent:
@@ -49,7 +49,7 @@ We can find the length of a list with the help of `len()`:
 print(len(names))
 ```
 
-### Removing from the list
+### Removing From The List
 We actually have 3 ways to delete an item from a list.
 
 `del`:<br>

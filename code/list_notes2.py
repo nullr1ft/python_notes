@@ -19,15 +19,15 @@ for value in range(1, 11):
 print(squares)
 
 # ---------- Simple Statistics with a List of Numbers ----------
-digits = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
-print(max(digits)) # will show the maximum number in the list
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(max(numbers)) # will show the maximum number in the list
 print(min(numbers)) # will show the minimum number in the list
 print(sum(numbers)) # will add the all the numbers and show the result
 
 # ---------- List Comprehensions ----------
 # there is an other way to specify and append value to a list with in the list
-sqrares = [value ** 2 for value in range(1, 11)] # there is no colon used in this types of 'for' loop
-print(sqrares)
+squares = [value ** 2 for value in range(1, 11)] # there is no colon used in these types of 'for' loop
+print(squares)
 
 # ---------- Working With Parts Of a List ----------
 # Slicing a List
