@@ -13,3 +13,4 @@ Note that I have skiped the very basic concepts like varibles for now.
 Content List:
  - [Introducing Lists](./notes/introducing_lists.md)
  - [Working With Lists And Tuples](./notes/working_with_lists_and_tuples.md)
+ - [If Statements](./notes/if_statements.md)
