@@ -1,7 +1,7 @@
 # If Statements
 
 ### A Basic Conditional Code
-We can look for specific conditions with `if` conditional codes. `if` conditions either result in `True` or `Flase` values. If the condition is satisfied (`True`), python runs code block runs. If not (`False`), python interpreter skips the code block.
+We can look for specific conditions with `if` conditional codes. `if` conditions either result in `True` or `Flase` values. If the condition is satisfied (`True`), Python runs code block runs. If not (`False`), Python interpreter skips the code block.
 ```python
 car = "bmw"
 
@@ -32,7 +32,7 @@ if dinner != "pizza":
 ```
 
 ### `and`, `in` and `not in`
-Some times we want to check two or more conditions at the same time in order for a code block to run. `and` helps us to define several conditions in an `if` statement. If one of these conditions is `False`, python interpreter will skip the code block. All of the conditions should be `True` in order for the python interpreter to run the code block.
+Some times we want to check two or more conditions at the same time in order for a code block to run. `and` helps us to define several conditions in an `if` statement. If one of these conditions is `False`, Python interpreter will skip the code block. All of the conditions should be `True` in order for the Python interpreter to run the code block.
 ```python
 number = 65
 
@@ -87,7 +87,7 @@ You can omit `else` and just use `if-elif` conditions.
 
 ### `if` And `if-elif` chain differences
 The use of `if` and `if-elif` chains really depends on what you want your program to do.<br>
-`if` chains are used when you want to check every condition without the python interpreter skipping them, as it does in `if-elif` chains. If the first `if` condition is `True` in an `if-elif` chain, the python interpreter skips the `elif` condition and runs the `if` code. However, if you use `if` chains, the python interpreter will not skip any condition; it will run the code if the condition results in `True`.
+`if` chains are used when you want to check every condition without the Python interpreter skipping them, as it does in `if-elif` chains. If the first `if` condition is `True` in an `if-elif` chain, the Python interpreter skips the `elif` condition and runs the `if` code. However, if you use `if` chains, the Python interpreter will not skip any condition; it will run the code if the condition results in `True`.
 <br>
 `if` chain example:
 

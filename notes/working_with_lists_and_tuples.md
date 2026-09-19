@@ -42,7 +42,7 @@ squares = [value ** 2 for value in range(1, 11)]
 ```
 There is no colon needed in these types of `for` loops which are inside the list.
 
-### Working With Parts Of a List
+### Working With Parts of a List
 We can work with different parts of a list with a method named "slicing". Slicing helps us to define a starting and ending index in which we can work with it later (ending index is off-by-one).<br>
 Slicing also accepts a third value which defines the steps in the given range (it's set to 1 by default). 
 ```python
@@ -53,14 +53,14 @@ print(names[2:4]) # Prints the two middle names
 print(names[-2:]) # Prints the last two names
 print(names[0:5:2]) # Two steps jump in the defined range
 ```
-In the slicing there is only one value required at minimum. Meaning that you can either define starting or ending value and python interpreter will figure out the rest.<br>
-If you only define the starting index, python interpreter will continue till the end of the list no matter the length.
+In the slicing there is only one value required at minimum. Meaning that you can either define starting or ending value and Python interpreter will figure out the rest.<br>
+If you only define the starting index, Python interpreter will continue till the end of the list no matter the length.
 ```python
 names = ['alice', 'mike', 'bob', 'larry', 'david', 'jack']
 
 print(names[2:]) # It will select from 'bob' to the end of the list
 ```
-If you only define the ending index, python interpreter will start from 0 index and continue till the defined ending index (remember that ending index is off-by-one!)
+If you only define the ending index, Python interpreter will start from 0 index and continue till the defined ending index (remember that ending index is off-by-one!)
 ```python
 names = ['alice', 'mike', 'bob', 'larry', 'david', 'jack']
 
