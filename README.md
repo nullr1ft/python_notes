@@ -12,6 +12,7 @@ Note that I have skiped the very basic concepts like varibles for now.
 # Notes
 Content List:
  - [Introducing Lists](./notes/introducing_lists.md)
- - [Working With Lists And Tuples](./notes/working_with_lists_and_tuples.md)
+ - [Working with Lists and Tuples](./notes/working_with_lists_and_tuples.md)
  - [If Statements](./notes/if_statements.md)
  - [Dictionaries](./notes/dictionaries.md)
+ - [Input and While Loops](./notes/input_and_while_loops.md)
