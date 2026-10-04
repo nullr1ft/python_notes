@@ -16,3 +16,4 @@ Content List:
  - [If Statements](./notes/if_statements.md)
  - [Dictionaries](./notes/dictionaries.md)
  - [Input and While Loops](./notes/input_and_while_loops.md)
+ - [Functions](./notes/functions.md)
