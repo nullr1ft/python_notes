@@ -230,8 +230,8 @@ Here `make_pizza()` function is renamed to `mp()` and imported from *pizza* modu
 
 ### Importing All Functions in a Module
 By using an asterisk, we can import all functions from a module.
-# First file (pizza.py)
 ```python
+# First file (pizza.py)
 def make_pizza(size, *toppings):
     """Summarize the pizza we are about to make."""
     print(f"\nMaking a {size}-inch pizza with the following toppings:")
